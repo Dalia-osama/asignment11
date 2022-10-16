@@ -1,0 +1,104 @@
+body{
+    background-color: #1e202b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.form1{
+    width:77%;
+}
+.form-control,input{
+    background-color: #1e202b;
+    border: none;
+}
+.bg-img{
+    background-image: url("../assets/bg.png ");
+    background-position: center center;
+    background-size: cover;
+    height:50vh;
+    
+}
+.btn-primary{
+    position: absolute;
+    top:0;
+    left:92%;
+}
+.clear{
+    clear:both;
+}
+.icon img{
+    width: 15%;
+}
+.header{
+    background-color:#2d303d ;
+    width:100% !important;
+    color:#b0bbbe!important;
+}
+.content,.weather{
+    background-color: #323544;
+}
+.content2{
+    background-color:#262936 ;
+}
+.header2{
+    background-color:#222531;
+    width:100% !important;
+    color:#b0bbbe!important;
+}
+.city{
+    color:#b0bbbe!important;
+  font-size: 18px;
+  line-height: 27px;
+}
+.degree1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 135px;
+    
+}
+.text{
+    color: #009ad8;
+}
+small{
+    color:#b0bbbe!important;  
+}
+.degree2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.middle{
+    background-color: #1e202b;
+    padding: 50px;
+}
+
+.icon2{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+  
+  
+  }
+  
+  .icon2:hover{
+    color: white;
+    background-color: #009ad8;
+    transition: 1s all;
+  
+    
+  }
+  .footer{
+    background-color:#2d303d;
+  }
+
+  input:focus {
+    outline: none !important;
+    border:none!important;
+    color: white;
+    box-shadow: none !important;
+    
+  }
+  input{
+    color: white;
+  }
